@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="jumeIOC:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jumeIOC_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jumeIOC/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

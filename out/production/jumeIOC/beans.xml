@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans>
+	<!-- 部门bean的配置 -->
+	<bean name="dept" scope="prototype"   class="me.jume.domain.Dept">
+		<property name="deptName" value="研发部"/>
+		<property name="deptId" value="2"/>
+	</bean>
+	<!-- 用户bean的配置 -->
+	<bean name="user" class="me.jume.domain.User">
+		<property name="userName" value="Taylor"/>
+		<property name="sex" value="男"/>
+		<property name="dept" ref="dept"/>
+	</bean>
+</beans>
